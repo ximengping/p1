@@ -23,23 +23,8 @@
 
 #类方法（静态成员函数）
 
-class C(object):
-    x=100
-    @classmethod
-    def Print(cls):
-        print cls.x
+
 #类自身也是一个type类型的对象
 #类方法参数至少会带上一个type类型的实例
 
-c=C()
-print id(C)
-print type(C)
-
-print id(c)
-print type(c)
-
-
-
-
-C.Print()
-
+print 'hello'
